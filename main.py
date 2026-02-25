@@ -22,9 +22,6 @@ model.fit(X, y)
 # ===============================
 joblib.dump(model, "model.pkl")
 
-# ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
-# ⭐ 新增這行（超重要）
-# ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
 joblib.dump(X.columns.tolist(), "features.pkl")
 
 print("✅ model.pkl + features.pkl 已儲存")

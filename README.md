@@ -13,3 +13,8 @@
 
 
 [文章](https://cckkaai.com/posts/taobao-recommender-fastapi-lightgbm-duckdb/)
+
+
+# ref
+
+https://tianchi.aliyun.com/dataset/649
